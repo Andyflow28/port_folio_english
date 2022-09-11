@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        '10xl': '10rem 2px 2px 5px radial-gradient(#644, #564)'
+        '10xl': '0px 4px 50px 40px rgb(0 0 0 / 0.25);'
       }
     },
   },
