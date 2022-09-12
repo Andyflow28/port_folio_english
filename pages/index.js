@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
 import PageWrapper from "../components/PageWrapper";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -11,16 +12,17 @@ export default function Home() {
       <div className="h-screen">
         <div>
           <div className="flex flex-col justify-center w-full items-center sm:pt-80 pt-52 text-center">
-            <div className="flex sm:mb-10 w-36 sm:w-48">
+            <h2 className="text-white font-semibold sm:text-5xl text-4xl mb-5">¡Hola!, Soy Andres Flores</h2>
+            <div className="flex sm:mb-10 w-36 sm:w-80 shadow-2xl shadow-gray-500 rounded-full">
               <Image
                 alt="react logo"
-                width={"182px"}
-                height="205px"
-                src={"/img/atomic.png"}
+                width={"433px"}
+                height="433px"
+                src={"/index.png"}
               />
             </div>
             <h1 className="text-white font-semibold sm:text-6xl text-4xl">
-              FRONTED DEVELOPER
+              FRONTEND DEVELOPER
             </h1>
           </div>
         </div>
