@@ -1,14 +1,14 @@
 import PageWrapper from "../components/PageWrapper";
 import Image from "next/image";
-import styles from "../styles/Proyectos.module.css";
+import styles from "../styles/Projects.module.css";
 import Link from "next/link";
 import Head from "next/head";
 
-const Proyectos = () => {
+const Projects = () => {
   return (
-    <PageWrapper title="Proyectos">
+    <PageWrapper title="Projects">
       <Head>
-        <title>Proyectos</title>
+        <title>Projects</title>
       </Head>
       <div className="bg-[#131313] h-screen pt-48 flex sm:justify-around flex-col sm:flex-row">
         <div className="sm:w-5/12 h-[30rem]">
@@ -112,4 +112,4 @@ const Proyectos = () => {
   );
 };
 
-export default Proyectos;
+export default Projects;

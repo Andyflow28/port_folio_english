@@ -6,7 +6,7 @@ const About = () => {
   return (
     <PageWrapper>
       <Head>
-        <title>Inicio</title>
+        <title>About me</title>
       </Head>
       <div className="bg-[#131313] h-screen sm:pt-48 flex sm:justify-around sm:flex-row flex-col pt-28">
         <div className="sm:bg-[#0A0A0A] bg-[#131313] sm:w-6/12 text-white sm:h-[45rem] sm:rounded-3xl shadow-2xl shadow-gray-800">
@@ -16,20 +16,19 @@ const About = () => {
             </h2>
             <div className="sm:mt-36">
               <p className="mb-5 text-xl">
-                Soy un Web Developer, amante de las Ciencias Físicas y de la
-                tecnología, y estoy dispuesto aceptar nuevos retos contribuyendo
-                desde el Front-End al desarrollo de aplicaciones Web y UI.
+                I am a Web Developer, lover of Physical Sciences and technology,
+                and I am willing to accept new challenges contributing from the
+                Front-End to the development of Web applications and UI.
               </p>
               <p className="mb-5 text-xl">
-                Me encanta programar con NextJS, haciendo servicios de backend
-                con NodeJS rápidos para generar aplicaciones dinámicas y
-                funcionales, usando a MySQL o MongoDB como bases de datos
-                relaciones.
+                I love programming with NextJS, making backend services with
+                fast NodeJS to build dynamic applications and functional, using
+                MySQL or MongoDB as databases relations.
               </p>
               <p className="text-xl">
-                Mi interés siempre ha girado al rededor de la industria de
-                software. Realicé un bootcamp que me cambió la vida y empecé a
-                programar. Y el resto es historia.
+                My interest has always revolved around the industry of software.
+                I did a bootcamp that changed my life and I started program. And
+                the rest is history.
               </p>
             </div>
           </div>

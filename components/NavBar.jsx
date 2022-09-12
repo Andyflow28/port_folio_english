@@ -43,10 +43,10 @@ const NavBar = () => {
         <div className={menu}>
           <div className="text-white flex flex-col items-center sm:flex-row sm:items-center sm:justify-between sm:w-[44rem]">
             <Link href={"/"}>
-              <a className={"my-2 font-medium sm:mx-4"}>Inicio</a>
+              <a className={"my-2 font-medium sm:mx-4"}>Home</a>
             </Link>
-            <Link href={"/Proyectos"}>
-              <a className="my-2 font-medium sm:mx-4">Proyectos</a>
+            <Link href={"/Projects"}>
+              <a className="my-2 font-medium sm:mx-4">Projects</a>
             </Link>
             <Link href={"/About"}>
               <a className="my-2 font-medium sm:mx-4">About</a>
