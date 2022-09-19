@@ -87,7 +87,7 @@ const Projects = () => {
             >
               <div className="flex w-8 ml-5">
                 <Image
-                  alt="github icon"
+                  alt="github ico"
                   height={"56px"}
                   width={"56px"}
                   src={"/img/github.png"}
